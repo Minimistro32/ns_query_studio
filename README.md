@@ -2,12 +2,11 @@
 
 ## About
 
-NetSuite Query Studio is a light weight wrapper for making JDBC connections using SuiteAnalytics Connect (NetSuite2). It's designed to be used in VS Code with Jupyter notebooks and make developing DB queries easier. It can run queries, display outputs, and includes a DB Object Explorer called `schema_viewer`.
+NetSuite Query Studio is a light weight wrapper for making JDBC connections using SuiteAnalytics Connect (NetSuite2). It's designed to be used in VS Code with Jupyter notebooks and make developing DB queries easier. It can run queries, display outputs, and includes a DB Object Explorer called `schema_viewer`. Polars is used to display outputs and can be used to extend notebook functionality.
 
 ## Set Up
 
 ### Requirements
-
 
 1. Download Python 3.7 - 3.10, the latest version will not work. Then run the following command.
 2. Download Java 9 - 11.
@@ -60,10 +59,6 @@ It worked if the `object_explorer.parquet` file is created. If `.env.DESCRIBE` i
 
 <img src="/imgs/execute.gif" alt="execute gif" width="928">
 
-> Tip: Hit the gray or blue bar on the left of a code cell to minimize the cell.
-> <img src="/imgs/collapse.gif" alt="collapse gif" width="520">
-
-
 ## How to Use the Schema Viewer
 A schema file must be downloaded for every table before that table can be viewed.
 
@@ -100,3 +95,8 @@ drilldown = """
 ```
 
 <img src="/imgs/schema_viewer_options.gif" alt="schema viewer options gif" width="928">
+
+## Jupter Notebook UX Tip
+Hit the gray or blue bar on the left of a code cell to minimize that cell. This frees up screen restate for viewing query outputs.
+
+<img src="/imgs/collapse.gif" alt="collapse gif" width="928">
