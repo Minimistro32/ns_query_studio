@@ -2,7 +2,7 @@
 
 ## About
 
-NetSuite Query Studio is a light weight wrapper for making JDBC connections using SuiteAnalytics Connect (NetSuite2). It's designed to be used in VS Code with Jupyter notebooks and make developing DB queries easier. It can run queries, display outputs, and includes a DB Object Explorer called `schema_viewer`. Polars is used to display outputs and can be used to extend notebook functionality.
+NetSuite Query Studio is a light weight wrapper for making JDBC connections via SuiteAnalytics Connect (NetSuite2). It's designed to be used in VS Code with Jupyter notebooks and make developing DB queries easier. It can run queries, display outputs, and includes a DB Object Explorer called `schema_viewer`. Polars is used to display outputs and can be used to extend notebook functionality.
 
 ## Set Up
 
