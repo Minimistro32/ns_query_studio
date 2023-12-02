@@ -1,0 +1,5 @@
+.DS_store
+.env
+*.jar
+*.parquet
+.python-version
