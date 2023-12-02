@@ -10,9 +10,10 @@ NetSuite Query Studio is a light weight wrapper for making JDBC connections via 
 
 1. Download Python 3.7 - 3.10, the latest version will not work. Then run the following command.
 2. Download Java 9 - 11.
-3. `pip install -r requirements.txt`
-4. Install the Juypter notebook extension to VSCode.
-5. Download the `.jar` file for your OS. Place it at the root folder of this repository.
+3. Clone this repository.
+4. `pip install -r requirements.txt`
+5. Install the Juypter notebook extension to VSCode.
+6. Download the `.jar` file for your OS. Place it at the root folder of this repository.
    - [Windows](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_3996479815.html#Installing-the-JDBC-Driver-for-Windows)
    - [Linux](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_4044023088.html#Installing-the-JDBC-Driver-for-Linux)
    - [OS X](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_4520819104.html#Installing-the-JDBC-Driver-for-OS-X)
