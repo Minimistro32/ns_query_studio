@@ -11,10 +11,14 @@
           C.oa_scale,
           C.oa_userdata AS oa_col_userdata,
           C.remarks AS column_desc,
-          PK.pk_name,
-          FK.pktable_name,
-          FK.pkcolumn_name,
-          FK.fk_name
+          REPLACE(CASE
+                    WHEN PK.fktable_name IS NULL THEN NULL
+                    ELSE PK.fktable_name || '.' || PK.fkcolumn_name
+          END, ' ', '') AS pk_joinkey,
+          REPLACE(CASE
+                    WHEN FK.pktable_name IS NULL THEN NULL
+                    ELSE FK.pktable_name || '.' || FK.pkcolumn_name
+          END, ' ', '') AS fk_joinkey
      FROM oa_tables AS T
 LEFT JOIN oa_columns AS C ON T.table_name = C.table_name
 LEFT JOIN oa_fkeys AS PK ON PK.pktable_name = T.table_name
