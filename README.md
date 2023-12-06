@@ -58,12 +58,12 @@ It worked if the `object_explorer.parquet` file is created. If `.env.DESCRIBE` i
 3. Open `execute.ipynb`
 4. Hit `Run All`
 
-<img src="/imgs/execute.gif" alt="execute gif" width="928">
+<img src="./imgs/execute.gif" alt="execute gif" width="928">
 
 ## How to Use the Schema Viewer
 A schema file must be downloaded for every table before that table can be viewed.
 
-<img src="/imgs/schema_viewer.gif" alt="schema viewer gif" width="928">
+<img src="./imgs/schema_viewer.gif" alt="schema viewer gif" width="928">
 
 ### 1. Downloading Schema Files
 1. Open your `.env` file.
@@ -95,9 +95,9 @@ drilldown = """
 """
 ```
 
-<img src="/imgs/schema_viewer_options.gif" alt="schema viewer options gif" width="928">
+<img src="./imgs/schema_viewer_options.gif" alt="schema viewer options gif" width="928">
 
 ## Jupter Notebook UX Tip
 Hit the gray or blue bar on the left of a code cell to minimize that cell. This frees up screen restate for viewing query outputs.
 
-<img src="/imgs/collapse.gif" alt="collapse gif" width="928">
+<img src="./imgs/collapse.gif" alt="collapse gif" width="928">
