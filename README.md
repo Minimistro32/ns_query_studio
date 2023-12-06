@@ -23,7 +23,7 @@ Create a `.env` file at the root folder of this repository with the following co
 
 ```bash
 #the SQL file to run, 'schema' if you want to pull the db schema for a table.
-EXECUTE=query
+EXECUTE=schema
 #the table you want to pull and/or view the schema of. Leave blank to view all tables.
 DESCRIBE=
 #the maximum width used to display database fields
